@@ -1,0 +1,15 @@
+.list {
+  font-weight: 500;
+}
+
+.good {
+  color: rgb(31, 228, 31);
+}
+
+.neutral {
+  color: rgb(255, 217, 0);
+}
+
+.bad {
+  color: red;
+}

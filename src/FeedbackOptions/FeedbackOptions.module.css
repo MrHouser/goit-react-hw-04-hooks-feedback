@@ -1,0 +1,23 @@
+.buttonList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem:not(:last-child) {
+  margin-right: 10px;
+}
+
+.button {
+  padding: 10px;
+  text-transform: capitalize;
+  background-color: transparent;
+  box-shadow: 0px 0px 5px 2px rgba(34, 60, 80, 0.2);
+  border-radius: 10px;
+  border: none;
+}
+
+.button:hover {
+  background-color: rgb(88, 168, 235);
+  color: #fff;
+}
